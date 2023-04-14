@@ -1,0 +1,161 @@
+body{
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+
+}
+#barra{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    padding-left: 40px;
+    padding-top: 40px;
+
+}
+#barra a{
+   padding: 2px 7px 2px 7px;
+   color: #fff;
+   background-color: none;
+   border: none;
+   text-decoration: none;
+   display:
+}
+.espacio_horizontal {
+    width: 100%;
+}
+.tv{
+   width: 90px;
+}
+.icono2 {
+    padding-right: 45px;
+}
+.titulo{
+    padding-left: 60px;
+    padding-top: 80px;
+    color: white;
+}
+.span{
+    padding-left: 10px;
+    font-size: medium;
+}
+
+.text{
+    display: flexbox;
+    padding-left: 60px;
+    padding-right: 60%;
+    padding-top: 5px;
+    font-size: medium;
+    color: white;
+}
+.btn{
+    padding-left: 60px;
+    display: flex;
+    position: relative;
+    align-items: center;
+
+}
+.play{
+    width: 5rem;
+    height: 2rem;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0, 0.245);
+    align-items: center;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 10px;
+    }
+.save{
+    width: 5rem;
+    height: 2rem;
+    cursor: pointer;
+    border: 2px solid white;
+    border-radius: 5px;
+    background-color: transparent;
+    align-items: center;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 10px;
+}
+.btn-play{
+    width: 20px;
+    size: 20px;
+    padding-right: 5px;
+}
+.btn-save{
+    padding-left: 5px;
+    width: 20px;
+    size: 20px;
+}
+.edad{
+    padding-left: 5px;
+    color: white;
+}
+.fondo1{
+    background-image: url(./poster-stranger-things_3840x2160_xtrafondos.com.jpg);
+    background-size: cover;
+    height: 380px;
+}
+.fondo2{
+    background-color: black;
+    width: 100%;
+    }
+.titulo2{
+    padding-left: 60px;
+    padding-top: 30px;
+    width: 100vh;
+    color: white;
+
+}
+.contenedor {
+    margin: 10px;
+    display: flex;
+    overflow-y: auto;
+    align-items: center;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+::-webkit-scrollbar {
+    display: none;
+}
+
+.img-c {
+    margin: 20px;
+    width: 100%;
+    object-fit: cover;
+    width: 214px;
+    height: 300px;
+    border-radius: 5%;
+}
+.info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.calificacion{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    padding-left: 5px;
+}
+.rating{
+    color: white;
+}
+.star{
+    width: 100%;
+    width: 20px;
+    height: 20px;
+    padding-left: 5px;
+}
+.saved{
+    width: 20px;
+    height: 20px;
+    border: none;
+    padding-left: 10px;
+}
